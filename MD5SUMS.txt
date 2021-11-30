@@ -1,0 +1,10 @@
+f1608cf6a85f90bcfd16dc5eaa72afe7  ./MANIFEST
+dbc1bc2fcfe8ce5d6e64a11150093118  ./MANIFEST.udebs
+17ea640181458f3fd01fb8bd408a1e95  ./loongson-3/netboot/boot.cfg
+8611ee30a6796442a43b4a65963d68d6  ./loongson-3/netboot/initrd.gz
+7f2359ffead8b282b2c52812b0c1ecf8  ./loongson-3/netboot/vmlinuz-5.10.0-9-loongson-3
+868ca48a2c6c18d01d094eb8a9aae4c1  ./malta/netboot/initrd.gz
+ee18443ee9c755d76e7bc74117660ce2  ./malta/netboot/vmlinuz-5.10.0-9-4kc-malta
+b6c6f566f1dab41cea351921d2d557fe  ./octeon/netboot/initrd.gz
+aad1390a9d41a525c4c0674ad939f00b  ./octeon/netboot/vmlinux-5.10.0-9-octeon
+d8fff41983a73d40c6bd15ef51ae8d4a  ./udeb.list

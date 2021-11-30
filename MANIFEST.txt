@@ -1,0 +1,7 @@
+loongson-3/netboot/boot.cfg                    -- PMON configuration file
+loongson-3/netboot/initrd.gz                   -- initrd for Loongson 3A/B systems
+loongson-3/netboot/vmlinuz-5.10.0-9-loongson-3 -- kernel image for Loongson 3A/B systems
+malta/netboot/initrd.gz                        -- initrd for the MIPS Malta board
+malta/netboot/vmlinuz-5.10.0-9-4kc-malta       -- kernel image for the MIPS Malta board
+octeon/netboot/initrd.gz                       -- initrd for the MIPS Octeon machines
+octeon/netboot/vmlinux-5.10.0-9-octeon         -- kernel image for the MIPS Octeon machines

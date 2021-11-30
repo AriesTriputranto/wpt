@@ -1,0 +1,974 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://bugs.chromium.org/p/v8/issues/list?can=2&q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional
+Subject: Masalah - v8
+Date: Fri, 29 Oct 2021 05:53:03 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----"
+
+
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/html
+Content-ID: <frame-84C6B330B7B5789711DD84EA8045F4E9@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://bugs.chromium.org/p/v8/issues/list?can=2&q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional
+
+<!DOCTYPE html><html lang="id" class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-ce113a58-20a5-4867-a351-d8a467556155@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-9ce10386-c6dd-4b09-bf3d-7de2bc814a45@mhtml.blink" />
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://bugs.chromium.org/static/images/monorail.ico">
+ 
+ 
+ 
+ 
+ <title>Masalah - v8</title>
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="referrer" content="no-referrer">
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+ <link type="text/css" rel="stylesheet" href="https://monorail-prod-default-v141-dot-monorail-prod.appspot.com/static/css/chopsui-normal.css">
+ 
+ <!-- Lazy load icons. -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="all" id="icons-stylesheet">
+ 
+ 
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
+
+
+
+<body><mr-app userdisplayname="aariesputranto@gmail.com" loginurl="https://accounts.google.com/AccountChooser?service=ah&amp;passive=true&amp;continue=https://uc.appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://bugs.chromium.org/p/v8/issues/list%253Fcan%253D2%2526q%253DDevice%252520-Software%252520cc%25253ACCO%25252Cby-SA%25252Clisensi%25252CPublic%25252Cstandard%25252Cinternasional" logouturl="https://bugs.chromium.org/_ah/logout?continue=https://accounts.google.com/Logout%3Fcontinue%3Dhttps://uc.appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://google.com/url%25253Fsa%25253DD%252526q%25253Dhttps://bugs.chromium.org/p/v8/issues/list%2525253Fcan%2525253D2%25252526q%2525253DDevice%2525252520-Software%2525252520cc%252525253ACCO%252525252Cby-SA%252525252Clisensi%252525252CPublic%252525252Cstandard%252525252Cinternasional%252526ust%25253D1635573167921305%252526usg%25253DAFQjCNFtcbgHR-2FNMovC2-qMXzqXWDbWw%26service%3Dah" versionbase="https://monorail-prod-default-v141-dot-monorail-prod.appspot.com"><!---->
+      
+      <mr-header><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <mr-keystrokes><template shadowmode="open"><!---->
+      <chops-dialog>
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          Pintasan keyboard pelacak masalah
+          </font></font><button class="close-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Menutup
+          </font></font></button>
+        </h2>
+        <div class="keyboard-help">
+          <!---->
+            <div class="keyboard-help-section">
+              <span></span><span class="help-title"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daftar masalah</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->k<!----></kbd>
+                    <span class="key-separator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font></span>
+                  <!---->
+                    <kbd><!---->j<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">atas/bawah dalam daftar</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->o<!----></kbd>
+                    <span class="key-separator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font></span>
+                  <!---->
+                    <kbd><!---->Enter<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buka edisi saat ini</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->Shift-O<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buka masalah di tab baru</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->x<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pilih masalah saat ini</font></font><!----></span>
+              <!---->
+            </div>
+          <!---->
+            <div class="keyboard-help-section">
+              <span></span><span class="help-title"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detail masalah</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->k<!----></kbd>
+                    <span class="key-separator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font></span>
+                  <!---->
+                    <kbd><!---->j<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">edisi sebelumnya/berikutnya dalam daftar</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->u<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hingga daftar masalah</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->r<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">membalas masalah saat ini</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->Ctrl+Enter<!----></kbd>
+                    <span class="key-separator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font></span>
+                  <!---->
+                    <kbd><!---->âŒ˜+Enter<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">simpan balasan masalah (kirim masalah pada halaman pengarsipan masalah)</font></font><!----></span>
+              <!---->
+            </div>
+          <!---->
+            <div class="keyboard-help-section">
+              <span></span><span class="help-title"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dimana saja</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->/<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fokus pada bidang pencarian masalah</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->c<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buat edisi baru</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->s<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bintangi masalah saat ini</font></font><!----></span>
+              <!---->
+                <span class="key-shortcut">
+                  <!---->
+                    <kbd><!---->?<!----></kbd>
+                    
+                  <!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:
+                </font></font></span>
+                <span class="key-tip"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tunjukkan dialog bantuan ini</font></font><!----></span>
+              <!---->
+            </div>
+          <!---->
+        </div>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          Catatan: Hanya pengguna yang masuk yang dapat membintangi masalah atau menambahkan komentar, dan hanya anggota proyek yang dapat memilih masalah untuk pengeditan massal.
+        </font></font></p>
+      <template shadowmode="open"><!---->
+      <dialog class="dialog" role="dialog">
+        <div class="dialog-content">
+          <slot></slot>
+        </div>
+      </dialog>
+    <!----></template></chops-dialog>
+    <!----></template></mr-keystrokes>
+      <a class="home-link" href="https://bugs.chromium.org/p/v8/issues/list">
+        
+          <img class="project-logo" src="https://00f74ba44b40a45cc010f767acc1fbb992240f2fc8-apidata.googleusercontent.com/download/storage/v1/b/monorail-prod.appspot.com/o/15%2Fattachments%2F68d883d2-7f8e-4a08-9365-5e4f0cc35c83-thumbnail?jk=AFshE3U0IWWeuLEE0_fkfOd6PnqGMmHC6KsmVVQ8_MxmuAkoZVc-0LRxf3Y2QVl5bTyy570KScHFHGCojpZITHPlybmOvdXXQzgstlMqzwCadshiIoqBxfrBeiRwVabghfhZSVinWlAPZkoObyIyeUllbo6aqOfsgB6Y4eqIZR6g4TIAl9k35AaRzVD-TXi0Kbn7y8y5SuGvXFItAYFLPtBvt4kgEIeuEbdtyJOxObnF-W4E_nGwRd4wx5nQV4vJULm_tVMayiAt5-dFb0C5dESLrYI-MOjwBsNhWdqbgw_VDTII2UAwZ0OqzTH_MWPjxG6uB0GdXPqrwx-uRW7nGeL8Y84hTACNo-oXdXUv_umHxeb2xh1PxeXBewTPIYh0iB48Fa7Q5hH0bxGk0tANX0NsyAcff0t3nKtLY7KgaI57w8yc2aF6YJYSzXR0ov-UhLRba_d1XEv_403D0h-zq68l40bvqe60s0sFYg_SEduMsXSV6-uDmXb2Z-7Zfd_v48cF0l1AbbMboZZyX3orXT74gymZ5n4dp1aBeZeQHB4e9wQ_KwstaVfc2V2LQwAA87CvKQ5JIdN40n4ZfohxiILuY3PjfMWNLxfldyXE-UqkXy59NtseW0RGqnRhuToixAVYfwBQeZbTKLkxfszwMHP5tlLppi47_pTH4-hEVBHJRUzISA71k6H7QzrIQjVRUUdfrj_U9HUyfnY51xE1j5LmHt1WNWVvnxUHdYnAmplaqIGZXAuN585QxVDpJes4cxvfORXLt-pHWWiRYVWtNSJYLabEbhyPc_j3mJtNIDEKkjltXNv1TL1gFq1JCHnd5M6d3y1yDwOUmG7VMybB9hNwC7udQaBur2X7lKVn89m20xnMUSMUfh7M1fnNgLxK-57GlAFJ2pOdm-NcmLHlTmomkqmrclaSSHz_VVqKHsXWkPj3Rvyns3t3kl9dKVD2q8Zr95O7DgJL0k6em-xr_dipUXXj7xOvPNbE7uYX4Wb6j5ZR7ndHibJ1J4OVicHK6-U8YKPth9ay0TJPPvraw-gvu9ExlqKY0htcwiEAhj2L3xh7GkeJ00dBJ1wIie4ZFooS-qyk42lOxH8oWRTiW2ZeRQ" title="v8">
+        
+      </a>
+      <mr-dropdown class="project-selector" menualignment="left" title="Mesin JavaScript V8"><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <button class="anchor" title="Mesin JavaScript V8" aria-label="" aria-expanded="false">
+        <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v8</font></font>
+        <i class="material-icons" aria-hidden="true"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arrow_drop_down</font></font><!----></i>
+      </button>
+      <div class="menu left">
+        <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/hosting/" data-idx="0">
+        
+        <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Semua proyek</font></font>
+      </a>
+    <!---->
+        <slot></slot>
+      </div>
+    <!----></template></mr-dropdown>
+      <a class="button emphasized new-issue-link" href="https://bugs.chromium.org/p/v8/issues/entry"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Edisi baru
+      </font></font></a>
+      <mr-search-bar><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <form>
+        
+      <div class="select-container">
+        <i class="material-icons" role="presentation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arrow_drop_down</font></font></i>
+        <select id="can" name="can" aria-label="Lingkup pencarian">
+          <optgroup label="Search within">
+            <option value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Semua masalah</font></font></option>
+            <option value="2" selected=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Masalah terbuka</font></font></option>
+            <option value="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Terbuka dan dimiliki oleh saya</font></font></option>
+            <option value="4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dibuka dan dilaporkan oleh saya</font></font></option>
+            <option value="5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buka dan dibintangi oleh saya</font></font></option>
+            <option value="8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buka dengan komentar oleh saya</font></font></option>
+            <option value="6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Masalah baru</font></font></option>
+            <option value="7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Masalah untuk diverifikasi</font></font></option>
+          </optgroup>
+          <optgroup label="Project queries">
+            
+            <option data-href="/p/v8/adminViews"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Kelola kueri proyek...
+            </font></font></option>
+          </optgroup>
+          <optgroup label="My saved queries">
+            <!---->
+      <option class="user-query" value="41027289"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">unduhan pdf</font></font><!----></option>
+    <!---->
+      <option class="user-query" value="41027290"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">unduhan jpg</font></font><!----></option>
+    <!---->
+      <option class="user-query" value="41027291"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ukuran file tidak diketahui</font></font><!----></option>
+    <!---->
+            <option data-href="/u/aariesputranto@gmail.com/queries"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Kelola kueri tersimpan saya...
+            </font></font></option>
+          </optgroup>
+        </select>
+      </div>
+    
+        <input id="searchq" type="text" name="q" autocomplete="off" aria-label="Kotak pencarian" spellcheck="false" placeholder="Telusuri masalah v8...">
+        <button type="submit">
+          <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cari</font></font></i>
+        </button>
+        <mr-dropdown label="Search options"><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <button class="anchor" title="pilihan pencarian" aria-label="pilihan pencarian" aria-expanded="false">
+        
+        <i class="material-icons" aria-hidden="true"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arrow_drop_down</font></font><!----></i>
+      </button>
+      <div class="menu right">
+        <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/p/v8/issues/advsearch" data-idx="0">
+        
+        Advanced search
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/p/v8/issues/searchtips" data-idx="1">
+        
+        Search tips
+      </a>
+    <!---->
+        <slot></slot>
+      </div>
+    <!----></template></mr-dropdown>
+      </form>
+    <!----></template></mr-search-bar>
+
+      <div class="right-section">
+        <mr-dropdown icon="settings" label="Project Settings"><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <button class="anchor" title="Pengaturan Proyek" aria-label="Pengaturan Proyek" aria-expanded="false">
+        
+        <i class="material-icons" aria-hidden="true"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pengaturan</font></font><!----></i>
+      </button>
+      <div class="menu right">
+        <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/p/v8/people/list" data-idx="0">
+        
+        <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rakyat</font></font>
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/p/v8/adminIntro" data-idx="1">
+        
+        Development Process
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/p/v8/updates/list" data-idx="2">
+        
+        History
+      </a>
+    <!---->
+        <slot></slot>
+      </div>
+    <!----></template></mr-dropdown>
+
+        
+      <mr-account-dropdown><template shadowmode="open"><!---->
+      <mr-dropdown .icon="arrow_drop_down"><template shadowmode="open"><!---->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <button class="anchor" title="" aria-label="" aria-expanded="false">
+        <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aariesputranto@gmail.com</font></font>
+        <i class="material-icons" aria-hidden="true"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arrow_drop_down</font></font><!----></i>
+      </button>
+      <div class="menu right">
+        <!---->
+      <a tabindex="0" class="menu-item" href="https://accounts.google.com/AccountChooser?service=ah&amp;passive=true&amp;continue=https://uc.appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://bugs.chromium.org/p/v8/issues/list%253Fcan%253D2%2526q%253DDevice%252520-Software%252520cc%25253ACCO%25252Cby-SA%25252Clisensi%25252CPublic%25252Cstandard%25252Cinternasional" data-idx="0">
+        
+        Switch accounts
+      </a>
+    <!---->
+        
+        <hr>
+      <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/u/aariesputranto@gmail.com" data-idx="2">
+        
+        Profile
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/u/aariesputranto@gmail.com/updates" data-idx="3">
+        
+        History
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/hosting/settings" data-idx="4">
+        
+        Settings
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/u/aariesputranto@gmail.com/queries" data-idx="5">
+        
+        Saved queries
+      </a>
+    <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/u/aariesputranto@gmail.com/hotlists" data-idx="6">
+        
+        Hotlists
+      </a>
+    <!---->
+        
+        <hr>
+      <!---->
+      <a tabindex="0" class="menu-item" href="https://bugs.chromium.org/_ah/logout?continue=https://accounts.google.com/Logout%3Fcontinue%3Dhttps://uc.appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://google.com/url%25253Fsa%25253DD%252526q%25253Dhttps://bugs.chromium.org/p/v8/issues/list%2525253Fcan%2525253D2%25252526q%2525253DDevice%2525252520-Software%2525252520cc%252525253ACCO%252525252Cby-SA%252525252Clisensi%252525252CPublic%252525252Cstandard%252525252Cinternasional%252526ust%25253D1635573167921305%252526usg%25253DAFQjCNFtcbgHR-2FNMovC2-qMXzqXWDbWw%26service%3Dah" data-idx="8">
+        
+        Sign out
+      </a>
+    <!---->
+        <slot></slot>
+      </div>
+    <!----></template></mr-dropdown>
+    <!----></template></mr-account-dropdown>
+    
+      </div>
+    <!----></template></mr-header>
+      <chops-announcement service="monorail"><template shadowmode="open"><!---->
+      
+    <!----></template></chops-announcement>
+      
+      
+      
+      <main><!---->
+          <mr-list-page><template shadowmode="open"><!---->
+      
+      <div class="list-controls">
+        <div>
+          
+        </div>
+
+        <div class="right-controls">
+          
+          
+          
+          <mr-mode-selector value="list"><template shadowmode="open"><!---->
+      <!---->
+        <a selected="" aria-current="true" href="https://bugs.chromium.org/p/v8/issues/list?can=2&amp;q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daftar</font></font><!----></a>
+      <!---->
+        <a aria-current="false" href="https://bugs.chromium.org/p/v8/issues/list?can=2&amp;q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional&amp;mode=grid"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kisi-kisi</font></font><!----></a>
+      <!---->
+        <a aria-current="false" href="https://bugs.chromium.org/p/v8/issues/list?can=2&amp;q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional&amp;mode=chart"><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bagan</font></font><!----></a>
+      <!---->
+    <!----></template></mr-mode-selector>
+        </div>
+      </div>
+    
+      
+        <div class="container-no-issues">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Permintaan pencarian:
+          </font></font></p>
+          <strong><!----><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perangkat -Perangkat lunak cc:CCO,by-SA,lisensi,Publik,standar,internasional</font></font><!----></strong>
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            tidak menghasilkan hasil apa pun.
+          </font></font></p>
+          <div class="no-issues-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Ketik kueri baru di kotak pencarian di atas
+          </font></font></div>
+          <a class="no-issues-block view-all-open" href="https://bugs.chromium.org/p/v8/issues/list?can=2&amp;q="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Lihat semua masalah terbuka
+          </font></font></a>
+          <a class="no-issues-block consider-closed" href="https://bugs.chromium.org/p/v8/issues/list?can=1&amp;q=Device%20-Software%20cc%3ACCO%2Cby-SA%2Clisensi%2CPublic%2Cstandard%2Cinternasional"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Pertimbangkan masalah tertutup
+          </font></font></a>
+        </div>
+      
+      <mr-update-issue-hotlists-dialog><template shadowmode="open"><!---->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <chops-dialog closeonoutsideclick="">
+      
+      <h3 class="medium-heading">Add issue to hotlists</h3>
+    
+      
+      
+      <input id="filter" type="text">
+      <i class="material-icons">search</i>
+    
+      <form id="issueHotlistsForm">
+        
+      <div class="user-hotlists">
+        
+      </div>
+    
+        <h3 class="medium-heading">Create new hotlist</h3>
+        <div class="input-grid">
+          <label for="newHotlistName">New hotlist name:</label>
+          <input type="text" name="newHotlistName">
+        </div>
+        
+      <br>
+      
+    
+        <div class="edit-actions">
+          <chops-button class="de-emphasized discard-button">
+            Discard
+          <template shadowmode="open"><!---->
+      <button>
+        <slot></slot>
+      </button>
+    <!----></template></chops-button>
+          <chops-button class="emphasized">
+            Save changes
+          <template shadowmode="open"><!---->
+      <button>
+        <slot></slot>
+      </button>
+    <!----></template></chops-button>
+        </div>
+      </form>
+    
+    <template shadowmode="open"><!---->
+      <dialog class="dialog" role="dialog">
+        <div class="dialog-content">
+          <slot></slot>
+        </div>
+      </dialog>
+    <!----></template></chops-dialog>
+    <!----></template></mr-update-issue-hotlists-dialog>
+      <mr-change-columns><template shadowmode="open"><!---->
+      <chops-dialog closeonoutsideclick="">
+        <h3 class="medium-heading">Change list columns</h3>
+        <form id="changeColumns">
+          <div class="input-grid">
+            <label for="columnsInput">Columns: </label>
+            <input id="columnsInput" placeholder="Edit columns..." value="ID Type Status Priority Owner Summary HW OS Component Stars">
+          </div>
+          <div class="edit-actions">
+            <chops-button class="de-emphasized discard-button">
+              Discard
+            <template shadowmode="open"><!---->
+      <button>
+        <slot></slot>
+      </button>
+    <!----></template></chops-button>
+            <chops-button class="emphasized">
+              Update columns
+            <template shadowmode="open"><!---->
+      <button>
+        <slot></slot>
+      </button>
+    <!----></template></chops-button>
+          </div>
+        </form>
+      <template shadowmode="open"><!---->
+      <dialog class="dialog" role="dialog">
+        <div class="dialog-content">
+          <slot></slot>
+        </div>
+      </dialog>
+    <!----></template></chops-dialog>
+    <!----></template></mr-change-columns>
+    <!----></template></mr-list-page>
+        <!----></main>
+      <div class="snackbar-container" aria-live="polite">
+        
+      </div>
+    <!----></mr-app>
+
+<div id="footer">
+ 
+ 
+ <a href="https://bugs.chromium.org/p/monorail/adminIntro" title="Monorel monorel-prod-default-v141.439012979242628553"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tentang </font></font></a>
+ <a href="https://chromium.googlesource.com/infra/infra/+/main/appengine/monorail/doc/userguide/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Panduan Pengguna </font></font></a>
+ <font style="vertical-align: inherit;"><a href="https://bugs.chromium.org/p/monorail/adminIntro" title="Monorail monorail-prod-default-v141.439012979242628553"><font style="vertical-align: inherit;">Monorail </font></a></font><a href="https://chromium.googlesource.com/infra/infra/+/main/appengine/monorail/doc/release-notes.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catatan Rilis </font></font></a>
+ <a href="https://bugs.chromium.org/p/monorail/issues/entry?template=Online%20Feedback" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Umpan Balik tentang </font></font></a>
+ <a href="https://chromium.googlesource.com/infra/infra/+/main/appengine/monorail/doc/terms.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ketentuan </font></font></a>
+ <font style="vertical-align: inherit;"><a href="https://bugs.chromium.org/p/monorail/issues/entry?template=Online%20Feedback" target="_blank"><font style="vertical-align: inherit;">Monorail </font></a></font><a href="https://www.google.com/policies/privacy/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privasi</font></font></a>
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><a class="__crdxFeedbackButton" target="_blank" href="https://bugs.chromium.org/p/monorail/issues/entry?template=Online%20Feedback"></a><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-ce113a58-20a5-4867-a351-d8a467556155@mhtml.blink
+
+@charset "utf-8";
+
+.__crdxFeedbackButton { background-image: url("https://storage.cloud.google.com/chops-feedback/icon.png"); background-size: cover; bottom: 32px; height: 32px; opacity: 0.4; position: fixed; right: 24px; text-decoration: none; transition: opacity 0.2s ease 0s; width: 32px; z-index: 8675309; }
+
+.__crdxFeedbackButton:hover, .__crdxFeedbackButton:hover::after { opacity: 0.75; }
+
+.__crdxFeedbackButton::after { color: rgb(112, 112, 112); content: "Feedback"; font-size: 12px; left: 50%; opacity: 0; position: absolute; text-decoration: none; top: 28px; transition: opacity 0.4s ease 0s; transform: translateX(-50%); }
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://storage.cloud.google.com/chops-feedback/icon.png
+
+‰PNG
+
+   IHDR   @   @    `¹U  TIDATxí×4WFá/¶mÛ)Å¶m»4ubÛFñ·mÛŒmk{ß`İu§ëötïDıœbÛ°T*•Jı±	gòcxŸ©FTQÈGLáIÎeëNlÃİ¼N3ÊZ¯r3›[ò8„‰4"¯jéÍ–vc*ŠXÏ°¦ÅÇJÜOÊ©Ï9Ğâa3¢Õpa¼CÿŠY#×ZnØ™P5r†EÇÆ|ªŒí,V`J°Y7¡let¿.w¿\÷‹ìnşØ€"äª§
+Ô¢@=cşô.î›?A®†©«y¢½*µ&²µ§ùaU~Æyˆ[LÒsj“	ŒkÙ(Üİe~8¹º_-û#÷78ÄÕDóÃ‹ÈÕEúæ¯ıG€ß)øÚü°…åÚ4O-.Ùª0?ü‚ÂúFz=°ªËW€£&óC
+«@Rcø$U…í¿(Jh2¦ŒÜ÷	a½g~ø…u‘2Ã2?Ì¿«$}ä5<Ğ•1oÃ–
+Ô¢gèpGulb~8¹sßï®áF˜/Væ'äÈıÒqwÔÄşæ;#÷k×1ÜQ?‹‚uù%ØOlhÑp&J¬:²èx%R3WæúC2Å®‰,W¬Ê(«JÎ¶8X‘‡hB9ö6{X|É§9íû=¬jÉ`“Èÿƒ¯°•%‡Í‘wïs[²8ÁãZÿš‘dØÅº½Q ñìÅÁœÌùœÄÁìÅêÖ}Ø•:Ô¥¬lùÂª¼Š:U–?¬ÂhÔ©×ØÏò‡õ˜Şåú¾ˆ-Ÿ¸’Ÿ¿²˜'8Øş«R©T*õ;h¼×\ÒÍÜ`    IEND®B`‚
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-9ce10386-c6dd-4b09-bf3d-7de2bc814a45@mhtml.blink
+
+@charset "utf-8";
+
+:host { --mr-edit-field-padding: 0.125em 4px; --mr-edit-field-width: 90%; --mr-input-grid-gap: 6px; font-family: var(--chops-font-family); color: var(--chops-primary-font-color); font-size: var(--chops-main-font-size); }
+
+.linkify { display: inline; padding: 0px; margin: 0px; border: 0px; background: 0px center; cursor: pointer; }
+
+h1, h2, h3, h4 { background: none; }
+
+a, chops-button, a.button, .button, .linkify { color: var(--chops-link-color); text-decoration: none; font-weight: var(--chops-link-font-weight); font-family: var(--chops-font-family); }
+
+a:hover, .linkify:hover { text-decoration: underline; }
+
+a.button, .button { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; transition: filter 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s; }
+
+a.button:hover, .button:hover { filter: brightness(95%); }
+
+chops-button, a.button, .button { box-sizing: border-box; font-size: var(--chops-main-font-size); background: var(--chops-white); border-radius: 6px; --chops-button-padding: 0.25em 8px; margin: 0px 0px 0px auto; }
+
+a.button, .button { padding: var(--chops-button-padding); }
+
+chops-button i.material-icons, a.button i.material-icons, .button i.material-icons { display: block; margin-right: 4px; }
+
+chops-button.emphasized, a.button.emphasized, .button.emphasized { background: var(--chops-primary-button-bg); color: var(--chops-primary-button-color); text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 3px; }
+
+textarea, select, input { box-sizing: border-box; font-size: var(--chops-main-font-size); }
+
+.medium-heading { font-size: var(--chops-large-font-size); font-weight: normal; line-height: 1; padding: 0.25em 0px; color: var(--chops-link-color); margin: 0.25em 0px 0px; border-bottom: var(--chops-normal-border); }
+
+.medium-heading chops-button { line-height: 1.6; }
+
+.input-grid { padding: 0.5em 0px; display: grid; max-width: 100%; grid-gap: var(--mr-input-grid-gap); grid-template-columns: minmax(120px, max-content) 1fr; align-items: flex-start; }
+
+.input-grid label { font-weight: bold; text-align: right; overflow-wrap: break-word; }
+
+@media (max-width: 600px) {
+  .input-grid label { margin-top: var(--mr-input-grid-gap); text-align: left; }
+  .input-grid { grid-gap: var(--mr-input-grid-gap); grid-template-columns: 100%; }
+}
+
+mr-app { display: block; padding-top: var(--monorail-header-height); margin-top: -1px; --mr-edit-field-padding: 0.125em 4px; --mr-edit-field-width: 90%; --mr-input-grid-gap: 6px; font-family: var(--chops-font-family); color: var(--chops-primary-font-color); font-size: var(--chops-main-font-size); }
+
+main { border-top: var(--chops-normal-border); }
+
+.snackbar-container { position: fixed; bottom: 1em; left: 1em; display: flex; flex-direction: column; align-items: flex-start; z-index: 1000; }
+
+chops-snackbar { position: static; margin-top: 0.5em; }
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://monorail-prod-default-v141-dot-monorail-prod.appspot.com/static/css/chopsui-normal.css
+
+@charset "utf-8";
+
+:root { --chops-red-50: #ffebee; --chops-red-700: #d32f2f; --chops-purple-50: #f3e5f5; --chops-purple-700: #7b1fa2; --chops-blue-50: #e3f2fd; --chops-blue-75: #d9edfc; --chops-blue-100: #bbdefb; --chops-blue-300: #64b5f6; --chops-blue-700: #1976d2; --chops-blue-900: #01579b; --chops-green-50: #e8f5e9; --chops-green-800: #2e7d32; --chops-light-green-10: #f6fff5; --chops-light-green-50: #f1f8e9; --chops-yellow-50: #fffde7; --chops-orange-50: #fff3e0; --chops-orange-200: #ffcc80; --chops-gray-50: #fafafa; --chops-gray-200: #eee; --chops-gray-300: #e0e0e0; --chops-gray-400: #bdbdbd; --chops-gray-500: #9e9e9e; --chops-gray-600: #757575; --chops-gray-700: #616161; --chops-gray-800: #424242; --chops-gray-850: #303030; --chops-gray-900: #212121; --chops-white: #ffffff; --chops-black: #000000; --chops-gray-700-alpha: hsla(0, 0%, 0%, 0.62); --chops-gray-800-alpha: hsla(0, 0%, 0%, 0.74); --chops-gray-900-alpha: hsla(0, 0%, 0%, 0.87); --chops-blue-gray-25: #f1f3f4; --chops-blue-gray-50: #eceff1; --chops-primary-header-bg: var(--chops-white); --chops-secondary-header-bg: var(--chops-blue-gray-25); --chops-sidebar-bg: var(--chops-blue-gray-25); --chops-page-bg: var(--chops-white); --chops-footer-bg: transparent; --chops-primary-icon-color: var(--chops-gray-700-alpha); --chops-normal-border: 1px solid hsl(0, 0%, 85%); --chops-accessible-border: 1px solid var(--chops-gray-400); --chops-radius: 6px; --chops-shadow: none; --chops-primary-font-color: var(--chops-gray-900-alpha); --chops-font-family: "Roboto", "Noto", sans-serif; --chops-link-color: var(--chops-primary-accent-color); --chops-link-font-weight: 500; --chops-light-accent-color: var(--chops-blue-300); --chops-primary-accent-color: var(--chops-blue-700); --chops-primary-accent-bg: var(--chops-blue-50); --chops-primary-button-bg: var(--chops-primary-accent-color); --chops-primary-button-color: var(--chops-white); --chops-button-bg: var(--chops-gray-200); --chops-button-color: var(--chops-black); --chops-button-disabled-bg: var(--chops-gray-300); --chops-button-disabled-color: var(--chops-gray-600); --chops-button-border: none; --chops-button-radius: 4px; --chops-choice-bg: var(--chops-blue-gray-50); --chops-choice-color: var(--chops-gray-600); --chops-active-choice-bg: var(--chops-blue-75); --chops-active-choice-color: var(--chops-primary-accent-color); --chops-transition-time: 0.1s; --chops-error-bubble-bg: var(--chops-red-50); --chops-notice-bubble-bg: var(--chops-orange-50); --chops-notice-border: 1px solid var(--chops-orange-200); --chops-help-bubble-bg: var(--chops-blue-50); --chops-field-error-color: var(--chops-red-700); --chops-selected-bg: var(--chops-yellow-50); --chops-card-heading-bg: var(--chops-secondary-header-bg); --chops-card-details-bg: var(--chops-gray-50); --chops-card-border: var(--chops-normal-border); --chops-card-content-bg: var(--chops-white); --chops-table-header-bg: var(--chops-secondary-header-bg); --chops-table-row-bg: var(--chops-white); --chops-table-divider: var(--chops-normal-border); --chops-main-font-size: 13px; --chops-large-font-size: 15px; --chops-icon-font-size: 20px; --monorail-header-height: 44px; --monorail-metadata-open-bg: var(--chops-light-green-10); --monorail-metadata-closed-bg: var(--chops-sidebar-bg); }
+
+body { box-sizing: border-box; margin: 0px; padding: 0px; font-family: var(--chops-font-family); line-height: 1.4; font-size: var(--chops-main-font-size); min-width: 300px; background: var(--chops-page-bg); color: var(--chops-primary-font-color); }
+
+a { color: var(--chops-link-color); text-decoration: none; font-weight: var(--chops-link-font-weight); }
+
+a:hover { text-decoration: underline; }
+
+#footer { clear: both; text-align: right; padding-top: 1em; margin: 3.5em 0em; color: var(--chops-gray-500); background: var(--chops-footer-bg); }
+
+#footer a, #footer a:visited { text-decoration: none; margin-right: 2em; }
+
+#ac-list { border: 1px solid var(--chops-gray-400); background: var(--chops-white); color: var(--chops-link-color); padding: 2px; z-index: 999; max-height: 18em; overflow: hidden auto; }
+
+#ac-list { font-size: 95%; }
+
+#ac-list tr { margin: 1px; cursor: pointer; padding: 0px 10px; }
+
+#ac-list th { color: var(--chops-gray-850); text-align: left; }
+
+#ac-list .selected, #ac-list .selected td { background: var(--chops-active-choice-bg); }
+
+#ac-list td, #ac-list th { white-space: nowrap; padding-right: 22px; }
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/icon?family=Material+Icons
+
+@charset "utf-8";
+
+@font-face { font-family: "Material Icons"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/materialicons/v113/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2") format("woff2"); }
+
+.material-icons { font-family: "Material Icons"; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; overflow-wrap: normal; direction: ltr; font-feature-settings: "liga"; -webkit-font-smoothing: antialiased; }
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://translate.googleapis.com/translate_static/css/translateelement.css
+
+@charset "utf-8";
+
+.goog-te-banner-frame { left: 0px; top: 0px; height: 39px; width: 100%; z-index: 10000001; position: fixed; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid rgb(107, 144, 218); margin: 0px; box-shadow: rgb(153, 153, 153) 0px 0px 8px 1px; }
+
+.goog-te-menu-frame { z-index: 10000002; position: fixed; border: none; box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; }
+
+.goog-te-ftab-frame { z-index: 10000000; border: none; margin: 0px; }
+
+.goog-te-gadget { font-family: arial; font-size: 11px; color: rgb(102, 102, 102); white-space: nowrap; }
+
+.goog-te-gadget img { vertical-align: middle; border: none; }
+
+.goog-te-gadget-simple { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(155, 155, 155) rgb(213, 213, 213) rgb(232, 232, 232); font-size: 10pt; display: inline-block; padding-top: 1px; padding-bottom: 2px; cursor: pointer; zoom: 1; }
+
+.goog-te-gadget-icon { margin-left: 2px; margin-right: 2px; width: 19px; height: 19px; border: none; vertical-align: middle; }
+
+.goog-te-combo { margin-left: 4px; margin-right: 4px; vertical-align: baseline; }
+
+.goog-te-gadget .goog-te-combo { margin: 4px 0px; }
+
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active { font-size: 12px; font-weight: bold; color: rgb(68, 68, 68); text-decoration: none; }
+
+.goog-te-banner .goog-logo-link, .goog-close-link { display: block; margin: 0px 10px; }
+
+.goog-te-banner .goog-logo-link { padding-top: 2px; padding-left: 4px; }
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * { font-family: arial; font-size: 10pt; }
+
+.goog-te-banner { margin: 0px; background-color: rgb(228, 239, 251); overflow: hidden; }
+
+.goog-te-banner img { border: none; }
+
+.goog-te-banner-content { color: rgb(0, 0, 0); }
+
+.goog-te-banner-content img { vertical-align: middle; }
+
+.goog-te-banner-info { color: rgb(102, 102, 102); vertical-align: top; margin-top: 0px; font-size: 7pt; }
+
+.goog-te-banner-margin { width: 8px; }
+
+.goog-te-button { border-color: rgb(231, 231, 231); border-style: none solid solid none; border-width: 0px 1px 1px 0px; }
+
+.goog-te-button div { border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); border-style: solid; border-width: 1px; height: 20px; }
+
+.goog-te-button button { background: transparent; border: none; cursor: pointer; height: 20px; overflow: hidden; margin: 0px; vertical-align: top; white-space: nowrap; }
+
+.goog-te-button button:active { background: none 0px 0px repeat scroll rgb(204, 204, 204); }
+
+.goog-te-ftab { margin: 0px; background-color: rgb(255, 255, 255); white-space: nowrap; }
+
+.goog-te-ftab-link { text-decoration: none; font-weight: bold; font-size: 10pt; border: 1px outset rgb(136, 136, 136); padding: 6px 10px; white-space: nowrap; position: absolute; left: 0px; top: 0px; }
+
+.goog-te-ftab-link img { margin-left: 2px; margin-right: 2px; width: 19px; height: 19px; border: none; vertical-align: middle; }
+
+.goog-te-ftab-link span { text-decoration: underline; margin-left: 2px; margin-right: 2px; vertical-align: middle; }
+
+.goog-float-top .goog-te-ftab-link { padding: 2px; border-top-width: 0px; }
+
+.goog-float-bottom .goog-te-ftab-link { padding: 2px; border-bottom-width: 0px; }
+
+.goog-te-menu-value { text-decoration: none; color: rgb(0, 0, 204); white-space: nowrap; margin-left: 4px; margin-right: 4px; }
+
+.goog-te-menu-value span { text-decoration: underline; }
+
+.goog-te-menu-value img { margin-left: 2px; margin-right: 2px; }
+
+.goog-te-gadget-simple .goog-te-menu-value { color: rgb(0, 0, 0); }
+
+.goog-te-gadget-simple .goog-te-menu-value span { text-decoration: none; }
+
+.goog-te-menu { background-color: rgb(255, 255, 255); text-decoration: none; border: 2px solid rgb(195, 217, 255); overflow: hidden scroll; position: absolute; left: 0px; top: 0px; }
+
+.goog-te-menu-item { padding: 3px; text-decoration: none; }
+
+.goog-te-menu-item, .goog-te-menu-item:link { color: rgb(0, 0, 204); background: rgb(255, 255, 255); }
+
+.goog-te-menu-item:visited { color: rgb(85, 26, 139); }
+
+.goog-te-menu-item:hover { background: rgb(195, 217, 255); }
+
+.goog-te-menu-item:active { color: rgb(0, 0, 204); }
+
+.goog-te-menu2 { background-color: rgb(255, 255, 255); text-decoration: none; border: 1px solid rgb(107, 144, 218); overflow: hidden; padding: 4px; }
+
+.goog-te-menu2-colpad { width: 16px; }
+
+.goog-te-menu2-separator { margin: 6px 0px; height: 1px; background-color: rgb(170, 170, 170); overflow: hidden; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item-selected div { padding: 4px; }
+
+.goog-te-menu2-item .indicator { display: none; }
+
+.goog-te-menu2-item-selected .indicator { }
+
+.goog-te-menu2-item-selected .text { padding-left: 4px; padding-right: 4px; }
+
+.goog-te-menu2-item, .goog-te-menu2-item-selected { text-decoration: none; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div { color: rgb(0, 0, 204); background: rgb(255, 255, 255); }
+
+.goog-te-menu2-item:hover div { color: rgb(255, 255, 255); background: rgb(51, 102, 204); }
+
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .goog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover div, .goog-te-menu2-item-selected:active div { color: rgb(0, 0, 0); font-weight: bold; }
+
+.goog-te-balloon { background-color: rgb(255, 255, 255); overflow: hidden; padding: 8px; border: none; border-radius: 10px; }
+
+.goog-te-balloon-frame { background-color: rgb(255, 255, 255); border: 1px solid rgb(107, 144, 218); box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; border-radius: 8px; }
+
+.goog-te-balloon img { border: none; }
+
+.goog-te-balloon-text { margin-top: 6px; }
+
+.goog-te-balloon-zippy { margin-top: 6px; white-space: nowrap; }
+
+.goog-te-balloon-zippy * { vertical-align: middle; }
+
+.goog-te-balloon-zippy .minus { background-image: url("//www.google.com/images/zippy_minus_sm.gif"); }
+
+.goog-te-balloon-zippy .plus { background-image: url("//www.google.com/images/zippy_plus_sm.gif"); }
+
+.goog-te-balloon-zippy span { color: rgb(0, 0, 204); text-decoration: underline; cursor: pointer; margin: 0px 4px; }
+
+.goog-te-balloon-form { margin: 6px 0px 0px; }
+
+.goog-te-balloon-form form { margin: 0px; }
+
+.goog-te-balloon-form form textarea { margin-bottom: 4px; width: 100%; }
+
+.goog-te-balloon-footer { margin: 6px 0px 4px; }
+
+.goog-te-spinner-pos { z-index: 1000; position: fixed; transition-delay: 0.6s; left: -1000px; top: -1000px; }
+
+.goog-te-spinner-animation { display: flex; align-items: center; justify-content: center; width: 104px; height: 104px; border-radius: 50px; background: url("//www.gstatic.com/images/branding/product/2x/translate_24dp.png") 50% 50% no-repeat rgb(255, 255, 255); transition: all 0.6s ease-in-out 0s; transform: scale(0.4); opacity: 0; }
+
+.goog-te-spinner-animation-show { transform: scale(0.5); opacity: 1; }
+
+.goog-te-spinner { margin: 2px 0px 0px 2px; animation: 1.4s linear 0s infinite normal none running goog-te-spinner-rotator; }
+
+@keyframes goog-te-spinner-rotator { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.goog-te-spinner-path { stroke-dasharray: 187; stroke-dashoffset: 0; stroke: rgb(66, 133, 244); transform-origin: center center; animation: 1.4s ease-in-out 0s infinite normal none running goog-te-spinner-dash; }
+
+@keyframes goog-te-spinner-dash { 
+  0% { stroke-dashoffset: 187; }
+  50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goog-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table, #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td { margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; vertical-align: baseline; text-align: left; line-height: normal; }
+
+#goog-gt-tt ol, #goog-gt-tt ul { list-style: none; }
+
+#goog-gt-tt table { border-collapse: collapse; border-spacing: 0px; }
+
+#goog-gt-tt caption, #goog-gt-tt th, #goog-gt-tt td { text-align: left; font-weight: normal; }
+
+div#goog-gt-tt { padding: 10px 14px; }
+
+#goog-gt-tt { color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); border: 1px solid rgb(238, 238, 238); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; display: none; font-family: arial; font-size: 10pt; width: 420px; padding: 12px; position: absolute; z-index: 10000; }
+
+#goog-gt-tt .original-text, .gt-hl-layer { clear: both; font-size: 10pt; position: relative; text-align: justify; width: 100%; }
+
+#goog-gt-tt .title { color: rgb(153, 153, 153); font-family: arial, sans-serif; margin: 4px 0px; text-align: left; }
+
+#goog-gt-tt .close-button { display: none; }
+
+#goog-gt-tt .logo { float: left; margin: 0px; }
+
+#goog-gt-tt .activity-links { display: inline-block; }
+
+#goog-gt-tt .started-activity-container { display: none; width: 100%; }
+
+#goog-gt-tt .activity-root { margin-top: 20px; }
+
+#goog-gt-tt .left { float: left; }
+
+#goog-gt-tt .right { float: right; }
+
+#goog-gt-tt .bottom { min-height: 15px; position: relative; height: 1%; }
+
+#goog-gt-tt .status-message { background: rgb(41, 145, 13); border-radius: 4px; box-shadow: rgb(30, 102, 9) 0px 2px 2px inset; color: white; font-size: 9pt; font-weight: bolder; margin-top: 12px; padding: 6px; text-shadow: rgb(30, 102, 9) 1px 1px 1px; }
+
+#goog-gt-tt .activity-link { color: rgb(17, 85, 204); cursor: pointer; font-family: arial; font-size: 11px; margin-right: 15px; text-decoration: none; }
+
+#goog-gt-tt textarea { font-family: arial; resize: vertical; width: 100%; margin-bottom: 10px; border-radius: 1px; border-width: 1px; border-style: solid; border-color: silver rgb(217, 217, 217) rgb(217, 217, 217); border-image: initial; font-size: 13px; height: auto; overflow-y: auto; padding: 1px; }
+
+#goog-gt-tt textarea:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset; border: 1px solid rgb(77, 144, 254); outline: none; }
+
+#goog-gt-tt .activity-cancel { margin-right: 10px; }
+
+#goog-gt-tt .translate-form { min-height: 25px; vertical-align: middle; padding-top: 8px; }
+
+#goog-gt-tt .translate-form .activity-form { margin-bottom: 0px; }
+
+#goog-gt-tt .translate-form .activity-form input { display: inline-block; min-width: 54px; border: 1px solid rgba(0, 0, 0, 0.1); text-align: center; color: rgb(68, 68, 68); font-size: 11px; font-weight: bold; height: 27px; outline: 0px; padding: 0px 8px; vertical-align: middle; line-height: 27px; margin: 0px 16px 0px 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; border-radius: 2px; transition: all 0.218s ease 0s; background-color: rgb(245, 245, 245); background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)); user-select: none; cursor: default; }
+
+#goog-gt-tt .translate-form .activity-form input:hover { border: 1px solid rgb(198, 198, 198); color: rgb(34, 34, 34); transition: all 0s ease 0s; background-color: rgb(248, 248, 248); background-image: -webkit-linear-gradient(top, rgb(248, 248, 248), rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:active { border: 1px solid rgb(198, 198, 198); color: rgb(51, 51, 51); background-color: rgb(246, 246, 246); background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus { outline: none; border: 1px solid rgb(77, 144, 254); z-index: 4 !important; }
+
+#goog-gt-tt .translate-form .activity-form input.selected { background-color: rgb(238, 238, 238); background-image: -webkit-linear-gradient(top, rgb(238, 238, 238), rgb(224, 224, 224)); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit { color: white; border-color: rgb(48, 121, 237); background-color: rgb(77, 144, 254); background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt .translate-form .activity-form input.activity-submit:active { border-color: rgb(48, 121, 237); background-color: rgb(53, 122, 232); background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(53, 122, 232)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover { box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.1) 0px 1px 1px; }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus, #goog-gt-tt .translate-form .activity-form input:active, #goog-gt-tt .translate-form .activity-form input:hover, #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus, #goog-gt-tt .translate-form .activity-form input.activity-submit:active, #goog-gt-tt .translate-form .activity-form input.activity-submit:hover { border-color: rgb(48, 121, 237); }
+
+#goog-gt-tt .gray { color: rgb(153, 153, 153); font-family: arial, sans-serif; }
+
+#goog-gt-tt .alt-helper-text { color: rgb(153, 153, 153); font-size: 11px; font-family: arial, sans-serif; margin: 15px 0px 5px; }
+
+#goog-gt-tt .alt-error-text { color: rgb(136, 0, 0); display: none; font-size: 9pt; }
+
+.goog-text-highlight { background-color: rgb(201, 215, 241); box-shadow: rgb(153, 153, 170) 2px 2px 4px; box-sizing: border-box; position: relative; }
+
+#goog-gt-tt .alt-menu.goog-menu { background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); box-shadow: rgb(153, 153, 170) 0px 2px 4px; min-width: 0px; outline: none; padding: 0px; position: absolute; z-index: 2000; }
+
+#goog-gt-tt .alt-menu .goog-menuitem { cursor: pointer; padding: 2px 5px 5px; margin-right: 0px; border-style: none; }
+
+#goog-gt-tt .alt-menu div.goog-menuitem:hover { background: rgb(221, 221, 221); }
+
+#goog-gt-tt .alt-menu .goog-menuitem h1 { font-size: 100%; font-weight: bold; margin: 4px 0px; }
+
+#goog-gt-tt .alt-menu .goog-menuitem strong { color: rgb(52, 90, 173); }
+
+#goog-gt-tt .goog-submenu-arrow { text-align: right; position: absolute; right: 0px; left: auto; }
+
+#goog-gt-tt .goog-menuitem-rtl .goog-submenu-arrow { text-align: left; position: absolute; left: 0px; right: auto; }
+
+#goog-gt-tt .gt-hl-text, #goog-gt-tt .trans-target-highlight { background-color: rgb(241, 234, 0); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; color: rgb(241, 234, 0); cursor: pointer; margin: -2px -2px -2px -3px; padding: 2px 2px 2px 3px; position: relative; }
+
+#goog-gt-tt .trans-target-highlight { color: rgb(34, 34, 34); }
+
+#goog-gt-tt .gt-hl-layer { color: white; position: absolute !important; }
+
+#goog-gt-tt .trans-target, #goog-gt-tt .trans-target .trans-target-highlight { background-color: rgb(201, 215, 241); border-radius: 4px 4px 0px 0px; box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; cursor: pointer; margin: -2px -2px -2px -3px; padding: 2px 2px 3px 3px; position: relative; }
+
+#goog-gt-tt span:focus { outline: none; }
+
+#goog-gt-tt .trans-edit { background-color: transparent; border: 1px solid rgb(77, 144, 254); border-radius: 0em; margin: -2px; padding: 1px; }
+
+#goog-gt-tt .gt-trans-highlight-l { border-left: 2px solid red; margin-left: -2px; }
+
+#goog-gt-tt .gt-trans-highlight-r { border-right: 2px solid red; margin-right: -2px; }
+
+#goog-gt-tt #alt-input { padding: 2px; }
+
+#goog-gt-tt #alt-input-text { font-size: 11px; padding: 2px 2px 3px; margin: 0px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); border-width: 1px; border-style: solid; border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217); border-image: initial; display: inline-block; vertical-align: top; height: 21px; box-sizing: border-box; border-radius: 1px; }
+
+#goog-gt-tt #alt-input-text:hover { border-width: 1px; border-style: solid; border-color: rgb(160, 160, 160) rgb(185, 185, 185) rgb(185, 185, 185); border-image: initial; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; }
+
+#goog-gt-tt #alt-input-text:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset; outline: none; border: 1px solid rgb(77, 144, 254); }
+
+#goog-gt-tt #alt-input-submit { font-size: 11px; padding: 2px 6px 3px; margin: 0px 0px 0px 2px; height: 21px; }
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gstatic.com/images/branding/product/2x/translate_24dp.png
+
+‰PNG
+
+   IHDR   0   0   Wù‡  ùIDATxí˜UwÛX€µÏËğ–¡Ìíb™Ÿ–·ÜpbˆSfffæ6Œ¶Ì3oÃ¯wvFÎ(ŠÖr”uğœÍ9_|íÒ÷Is%¥ÒDùúÿ ŞXz cî¢½ù;û„y;˜ÛÏ&#Ìlë÷¶¾…H£ºX¼·sş‚]}‚‰5`aZÛDmŞììukåc˜iï|„H£º I#yB•70Ëß_Eï"Òh¢.Xtä¤º9ˆ4š¨şø0:yÂŞù‘Fua^Ş| Ñ¸ŒKËGb&2;©z"êB/l$Ïs3ú@ËG˜ÙZÒû`åşpºÊEUUƒhni­­aZZZTš››ššš"ÒØØHĞZ®®®Ÿ†HŒº<¡—g´òÌµ‡U¡ 	ÿ÷ ¦²²f"/Œ¥Gg¨£Ï$Ÿ®‚Ü<YTU×“pÌõõND"$^Ì5!¾ø@Ÿ8ù¢äŠNhjë€fÄ]Ù	§ğ³Åû"ËÏB–íi‡Ì,§å€¨ohŒ5€‘‰FâLòõÑØÚ¯;"C¿¶íbOÄ â*Qa‘G!’ù ’4‚ä_¿­lè„Ç®N¸]Ğ¡šğgôºòPoDù™ö1r{¢´´ŒÄX1’! çü§ı}ê‘oÿ»=ëÖ^6i{î÷ÀÒı‘å9`iÿ¹\~†Dyy9	` ÉDàäón>òÊ¬ë¯÷Ú¹7:úÌÕá1òûƒt(‚D†=>„DH¼0
+ KòMxæí,Ï˜‘Ÿ$Â1Ê¥1ò‹P¨T”•©±°˜§€Ü@'èÅ6ôƒâ®ˆKvãeÒùD°?€XµÍ
+k“2À„|l$m&à‰³K/Ï¨cäóÑ…Vn³ÀÊíV ±`IíÍİÉÏ8al·zTö=Ø+Wrºş%?İ†Xû`ŞÖg°ø,Û„Ò[­¾nc¬°:!Ö$î@2å3|ä ÖsB³‰é&Æò*éa<ø})×zXQä‰™)5ğãïXº1°bkš°Vn·¡°C#cÀû.£mx=ò´[ÌÊ,Ÿr£G´¶‡OMSÌÏèeñ06#+Ü8FneŒ´›¹¢¢B!ıø%âÎ³,ıø	WßÈ*èFæì„›x#óVvªŸÓïI¸Òc(Ï‰x5ÊÉu	ÙíÁ`hP€Ûë«ãì°&>Êğ½üğ8¢±…D#CgÀv«{Hybñ®vˆË8K7X`ç©‹ÀÄ.|Ozç‰‹PYYI¢æx¢AãtüY7¸Ê;•MİÜÖ	<ç3»aé^aF˜fí…S7
+Å²VX¶Ù
+™¹ùŠü«Ü±
+÷ "§,( ªªŠ…c˜…éöÌÈ‰'+Áqø"…4ø%m7”È²øÕ²GÙÌG.ß'
+àˆúúúè3ŒEM‰3Fâ,Ïü´³^¾*¬aù–4X—+P~ƒã ”âHq€q„. ibZ?fä§öså¾[<}™'–oáË©Š²2N@¯P]]ÍÆÆÂÆâz¢Ë34FU´ëŞÒp/¤Ár¼©í:y	8€ÑÔÔÔD0–4!ÍØÂhÄäK/Ì±4À÷¿¦ÂªÍ6¸pç‘Xï€±ãäEŠ0¨­­%$Bâ…yicqÆŒ<1%­~Øpî>|¥<b¿Ì)kq/,ß†'.À°ŒÍ‹SûÑˆÊ@vK}ÄÎÌ+ëÊ8í8®œ	m C€Í˜©:†’ÿ†pı^^õ?bÂweŒ(P"èÙÈ~ìp a0ÃÖë2–4/NL±öŠHâË3—ïÉ¢ PôˆÕqüÊ:ú1"$BâÅlKûìX¤Y\K$ù):(&Ay6R~à×?Ü1Ñ˜©ñÕó¦¦¾öMµt
+-S†à›´ó52%µ´|£ãë”…ÍÊ>pÉ´Ê´ü=`´Ø’ø4î³¹7áSŸÌ¹¡òéœ›°9ù	äåãp>Ä¸ÄÙŸôÅ‚; åóùƒÙúró\¢¸Ä+üe3ã@¬ıãEË—‹îÃzŞ‡xÛKÈ/EÊ{<ü³AÔ  $‚¾*I¬ Âòö(ïÅÅı—#O¯B¥FÌØ8>ĞŠqÖç8óayYö	Ÿ?€G?-€û bÍo/ZX>Şög¾D¹y¯ÏG?z ¯9 ´¼BF$‚¾:É¶œ?”#ò9¹Å¢oZN§G‘÷û£ğ{mÀ«ì’ùˆDĞ·Q'Ç(Îò2³òENN‘(((N]6İ
+Æx½ÂçóqAkm ı^ï£§9‰áÅdeòü_ùˆÈ5¿A    IEND®B`‚
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://00f74ba44b40a45cc010f767acc1fbb992240f2fc8-apidata.googleusercontent.com/download/storage/v1/b/monorail-prod.appspot.com/o/15%2Fattachments%2F68d883d2-7f8e-4a08-9365-5e4f0cc35c83-thumbnail?jk=AFshE3U0IWWeuLEE0_fkfOd6PnqGMmHC6KsmVVQ8_MxmuAkoZVc-0LRxf3Y2QVl5bTyy570KScHFHGCojpZITHPlybmOvdXXQzgstlMqzwCadshiIoqBxfrBeiRwVabghfhZSVinWlAPZkoObyIyeUllbo6aqOfsgB6Y4eqIZR6g4TIAl9k35AaRzVD-TXi0Kbn7y8y5SuGvXFItAYFLPtBvt4kgEIeuEbdtyJOxObnF-W4E_nGwRd4wx5nQV4vJULm_tVMayiAt5-dFb0C5dESLrYI-MOjwBsNhWdqbgw_VDTII2UAwZ0OqzTH_MWPjxG6uB0GdXPqrwx-uRW7nGeL8Y84hTACNo-oXdXUv_umHxeb2xh1PxeXBewTPIYh0iB48Fa7Q5hH0bxGk0tANX0NsyAcff0t3nKtLY7KgaI57w8yc2aF6YJYSzXR0ov-UhLRba_d1XEv_403D0h-zq68l40bvqe60s0sFYg_SEduMsXSV6-uDmXb2Z-7Zfd_v48cF0l1AbbMboZZyX3orXT74gymZ5n4dp1aBeZeQHB4e9wQ_KwstaVfc2V2LQwAA87CvKQ5JIdN40n4ZfohxiILuY3PjfMWNLxfldyXE-UqkXy59NtseW0RGqnRhuToixAVYfwBQeZbTKLkxfszwMHP5tlLppi47_pTH4-hEVBHJRUzISA71k6H7QzrIQjVRUUdfrj_U9HUyfnY51xE1j5LmHt1WNWVvnxUHdYnAmplaqIGZXAuN585QxVDpJes4cxvfORXLt-pHWWiRYVWtNSJYLabEbhyPc_j3mJtNIDEKkjltXNv1TL1gFq1JCHnd5M6d3y1yDwOUmG7VMybB9hNwC7udQaBur2X7lKVn89m20xnMUSMUfh7M1fnNgLxK-57GlAFJ2pOdm-NcmLHlTmomkqmrclaSSHz_VVqKHsXWkPj3Rvyns3t3kl9dKVD2q8Zr95O7DgJL0k6em-xr_dipUXXj7xOvPNbE7uYX4Wb6j5ZR7ndHibJ1J4OVicHK6-U8YKPth9ay0TJPPvraw-gvu9ExlqKY0htcwiEAhj2L3xh7GkeJ00dBJ1wIie4ZFooS-qyk42lOxH8oWRTiW2ZeRQ
+
+‰PNG
+
+   IHDR   !      -ªà@   sBITÛáOà   bKGD ÿ ÿ ÿ ½§“  =IDATH‰VİoW?çÜ{ggíõÇú+‰7$ñ’Ø¸Rš–8²"5©r’'¤ˆ	4Qò‚@D¢ªP¡) ªT•*â¥A”
+‰Š©j’ôÚÒ
+Dè‡hZE8qÄŞ]ïÌÜ¹÷Æ6Á]»>ópïÌııÎ™{~¿ƒ"+‡ˆ " ¤^ŒÂ{·R'Z#ŞóÎJ«cdáYá|"×Çy¶.…¶­£öfbX  tFÖ9÷éI)íY´‚—ßIÿvz{N¬MĞQÀƒ;ô‰½"€÷™—36Æ "f{+QHM¿üSòÛ7ÒÖ&"³Ä¦«<²]ÿìÑ<M+ "«ÕêùóçE$c!"J©z½¾m`ğÈáÑ+ï%¿{Ë­kGç`º
+…PZòTê ‹ïúÏw×O<ÜtéòÕ¿¾ñç¦ææ¬Ù	Q:uªT*ikm¡P¨×ë.\hooO’ ˆˆ½¿rõõİÃC¯¾ße(aÖó–G¶ë6«oó+×\Ğ–ç×Ş×_îŸ~öì3ãwŒÖŞ{ ĞZW*•]»vuww;çĞ9GDµZíôéÓQeÕe‚ÊİÉ¡½‡ntı`n¶9ó•ÔÉ ¾ô¦}şrZ,…ÅM·Ÿığ­—šZ{œq)‰sçÎ•Ëå4MI)•¦iKKË¡C‡¦§§™ÙZkS[¯GÆè¿]û`®i­ dd»NR©F’¤ò¥ût!LSÿá1EE±µ6+ÃÄÄÄÈÈH¹\¶ÖcHD´ÖŞûÑÑÑşşş8µÖˆˆ¤9#’g™˜“œA­0gp¦&‘"vê„H˜1îéé9yò$3+¥DD9s&»sÆ˜r¹¬ˆ´Ö·nİ2F‹Ø9éx
+ŸC?ºƒƒ½ÔUÀñY9ûª¬8ä}íÜx ‰0I’¾¾¾ááá£Gfˆ¸ĞDÄÌƒƒƒ³³³ë7l››½«‚&I-]àÎ‚‰Yyò7ñÆ"MT¥IŞ°ƒ@ßü£§0ìaWÃpÏŞ½¥ŞÒğğ03Q& ²<²çÎC»w­õÙ³¿èóiĞjú$ìDÈh@O¦X+xÖàêjÓA¹órsÓµè›ßxìÄñãÖÚ¬ÚK-²Ğ;¸J‘÷~ÿşıå­ıQu*wßw“öàbA… "@´Ø[HÄ6iŞªïÿ‘K“bGç±cG3ú¸Ø}ÿ‡±´¤”òŞ…aøõ#âÜ)íãè®&’ØŠèiC…0oA¡MAÏP5¿ãğ‡{zÖ9—j­îÑ±å
+#" Ì@>©<ùü×Ó9J Uleëzzâ‘ T¤™yyîRòæG¾)‡Ş;Oùöèç¾_jëÜ ÂDj™8-×DDR,äÛŠ›vÙÔ’R"¢<5l[¯´’ôÓ#ag­¥tš$…Ş­]%Dü4@ŒµAá™J¢	$¶Rê R¥^IÊ¡ş^Š¬
+)¬Ôl=öˆÈœ¢"ˆ "†
+“U®%bFVŒF"¸9ÃB@S *xCMF/"‚‹à@ÌÍós—lœJ>@ øÕU{cRÂ XÄ9ØĞ.9ƒ¡ˆn„‘¹<4 şğw‹@ÖqsHßu×ÇyÛzú÷ÿë&LœäH½ìP ÈÌZ5 İµçå‹}fhsòÎ'ÒQÀZ,-9›‘'œQØœÃÄIhd>¦¾.¿ïş¼gÑ
+3U^K­¯6ÒÃb“›­c!Ö¹@s±óFRçòÄ©N|8×j^hÏµjŒ!"Z¡°”:ƒg¾n.Ú‰Š iò¢’TRA
+š§*Ğ$??ìØ:/FHcÏ^q.Dp^´Â8I_~»şâåÿ$Ô…&œJıö×öô~ë¡B±8/ZÁ*ĞŠ^¸g!‚c{ÚÿÂµ¹‹7ıó©¹×¾³¯ı•ï(¶æ)#±ú„µ",ê±"T¤bë¿úèc[º+ãïu·àñ'­Ğ*ÓìUµ…µ‰ˆ\¹úzÿÀà/üzi…™?óÛ5a033{ïKòôÓ““w˜½sn- "²¦Yt)c XpˆÏš?ïÕşÇ2€ÌÄè&µVrÿÏ[W8_    IEND®B`‚
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gstatic.com/images/branding/product/1x/translate_24dp.png
+
+‰PNG
+
+   IHDR         àw=ø  IDATxb HôNN]n…Q ísT=SïµÆU\Û¶±ÛÉØ77·çô•|q»Ö³÷ıt!]tâ_x\ ¢à˜ ùaò• ¹";nNû­@ñ	+:!ÀÅGG²~+ÀÄq&gBÁ¿ÿı@DN$ß=‘£`ƒÄ2ã—Lš(ÏW	Hä)Ì£xÜ.WÁP˜ÁÁAˆĞßßp:=éqüòÂ0y$ pÃ™qìQ›Eéwô<	$ŠËñĞcçp`dÕöI,ÀG9"/?›Ál¶S„äDœœ	”Qö‡ññ	|ÒÀÃÏxxØÌá¾{|DN¹ëEµÆ§‹É¿ …dĞ¿èà-*»sÈ–¸îÔ8vtêÁb±Ëåúq€dŒá	T¼ää×j0>1„Ş9Ir³D^|6No›Í›+d˜èëë‹HÆ`#È¦-y!;ï¡İ2‰Ÿµ\D)°°¼×í•à†Ò£¸©L‚›+ä¸µZ…[ªT˜ £ôAh‹kpè)w9¤÷ûîò˜EYˆµ'ÇñÚƒ—ĞÚÙ‡¤—nã³µ©G­ –b¤ÛÆáÀphUŠ»*VFyõ3ìU]Ä·u°]r
+ív;x½^’Ç²Di*2åQåÒ ºãÁRå%ÜP&Áú–Np:´è,’:À„ŒŒ0‰òt‘UÇGpk©
+wHNãÙ{‘„Ûí¿ß¤Æ#Ab&'Ò$A<~£ºÔz(=~ÏİyŒ,àóùbA.•”‘ÎH‡n{Q£1‚Ş`„Ò“ñcCKr çèHVš4L—òÀH‹a©$Dš„Ç´£—†Y}bµZ#ÚMqë0åW¯½{?Í[Tô½"pAá+<¤l@ƒÁ´ƒŠüv€®-»ê¿E¢ZQ=j˜Ìq¶¸€Çãù½Àayó®E%o±J^ZĞéŒ`°÷[ŠŠ–¹ÕòZloWƒZ­ƒAÉ‹¬V+=|Cƒ:wÊÿ¸¾‹ÇÅe¿.?’    IEND®B`‚
+------MultipartBoundary--am7yqXspyaQE4F2VIdyvfoYbZd3p9bwYCGjiG1Z3Uh------
